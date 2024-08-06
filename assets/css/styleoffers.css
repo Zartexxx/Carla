@@ -23,7 +23,6 @@
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: calc(33.333% - 20px);
     box-sizing: border-box;
     transition: transform 0.3s, box-shadow 0.3s;
     width: 100%;
