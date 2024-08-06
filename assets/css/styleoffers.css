@@ -139,7 +139,6 @@
  }
 
  .copyright-offers .container-offers{
-    display: flex;
-    justify-content: center;
+   text-align: center;
     font-size: 13px;
  }
