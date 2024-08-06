@@ -138,8 +138,8 @@
   justify-content: center;
  }
 
- .copyright-offers{
-  display: flex;
-  justify-content: center;
+ .copyright-offers .container-offers{
+    display: flex;
+    justify-content: center;
     font-size: 13px;
  }
