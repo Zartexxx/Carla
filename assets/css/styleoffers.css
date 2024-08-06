@@ -145,6 +145,7 @@
 
  }
 
- .footer-offers{
-
+ #footer-offers{
+  width: 100%;
+  background-color: black;
  }
