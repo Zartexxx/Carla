@@ -1,0 +1,131 @@
+/* Style du conteneur unique */
+.unique-container1 {
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-title1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.container-content1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.offer-card1 {
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.offer-card1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.offer-title1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.offer-description1 {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.offer-price1 {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.offer-button1 {
+    background: linear-gradient(145deg, #007BFF, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.offer-button1:hover {
+    background: linear-gradient(145deg, #0056b3, #007BFF);
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .offer-card1 {
+        width: calc(50% - 20px); /* Deux cartes par ligne sur petits écrans */
+    }
+}
+
+@media (max-width: 480px) {
+    .offer-card1 {
+        width: calc(100% - 20px); /* Une carte par ligne sur très petits écrans */
+    }
+}
+#header1 {
+    height: 90px;
+    transition: all 0.5s;
+    z-index: 997;
+    background: rgba(52, 59, 64, 0.9);
+  }
+  
+  #header1 #logo1 h1 {
+    font-size: 32px;
+    margin: 0;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  #header1 #logo1 h1 a,
+  #header1 #logo1 h1 a:hover {
+    color: #fff;
+  }
+  
+  #header1 #logo1 img {
+    margin-top: 7px;
+    width: 200px;
+  }
+  
+  #header1.header-transparent1 {
+    background: transparent;
+  }
+  
+  #header1.header-scrolled1 {
+    background: rgba(52, 59, 64, 0.9);
+    height: 70px;
+    transition: all 0.5s;
+  }
+  
+  .scrolled-offset1 {
+    margin-top: 70px;
+  }
+  
+  .scroll-resize1 {
+    width: 300px; /* Taille initiale de l'image */
+    transition: width 0.3s ease; /* Transition pour un effet plus fluide */
+  }
