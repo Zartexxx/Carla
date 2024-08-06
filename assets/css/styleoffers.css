@@ -1,8 +1,8 @@
 /* Style du conteneur unique */
 
 .body-offers{
-  max-height: 100px;
-  display: block!important;
+  max-height: 100px!important;
+  
 }
 
 .unique-container1 {
