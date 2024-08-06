@@ -1,7 +1,7 @@
 /* Style du conteneur unique */
 
 .body{
-  height: 20%;
+  max-height: 20%;
 }
 
 .unique-container1 {
