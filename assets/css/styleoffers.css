@@ -26,6 +26,7 @@
     box-sizing: border-box;
     transition: transform 0.3s, box-shadow 0.3s;
     width: 25%;
+    display: flex;
     justify-content: center;
 }
 
