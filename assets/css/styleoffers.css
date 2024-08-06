@@ -18,9 +18,9 @@
 
 .container-content1 {
     display: flex;
-   
-    gap: 20px;
     justify-content: center;
+    gap: 20px;
+    
 }
 
 .offer-card1 {
