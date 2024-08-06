@@ -132,7 +132,7 @@
 
 
  .copyright-offers{
-    d
+    display: flex;
     text-align: center;
     font-size: 13px;
     color: white;
