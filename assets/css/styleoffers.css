@@ -144,6 +144,9 @@
   height: 85px;
  }
 
+ #body{
+  height: 100%;
+ }
 
  /****Media Query*****/
  
