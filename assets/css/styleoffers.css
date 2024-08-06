@@ -2,7 +2,7 @@
 
 .body-offers{
   max-height: 100px;
-  display: none!important;
+  display: block!important;
 }
 
 .unique-container1 {
