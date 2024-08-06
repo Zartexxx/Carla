@@ -134,7 +134,7 @@
  .copyright-offers{
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   font-size: 13px;
   color: white;
   font-family: "Open Sans", sans-serif;
