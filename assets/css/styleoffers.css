@@ -134,11 +134,11 @@
  .copyright-offers{
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: ;
   font-size: 13px;
   color: white;
   font-family: "Open Sans", sans-serif;
-  paddin
+  padding-top: 20px;
 }
 
  #footer-offers{
