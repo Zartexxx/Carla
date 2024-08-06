@@ -132,12 +132,13 @@
 
 
  .copyright-offers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 13px;
   color: white;
   font-family: "Open Sans", sans-serif;
-  display: grid;
-  place-items: center;
-}
+  }
 
  #footer-offers{
   width: 100%;
