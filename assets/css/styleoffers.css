@@ -130,7 +130,13 @@
     transition: width 0.3s ease; /* Transition pour un effet plus fluide */
   }
 
-
+ .container-offers {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+ }
 
  .copyright-offers .container-offers .footer-top-offers{
     text-align: center;
