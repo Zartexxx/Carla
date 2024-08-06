@@ -26,6 +26,7 @@
     width: calc(33.333% - 20px);
     box-sizing: border-box;
     transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
 }
 
 .offer-card1:hover {
