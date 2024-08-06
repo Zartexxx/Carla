@@ -13,6 +13,7 @@
     font-size: 2.5em;
     color: #333;
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 .container-content1 {
@@ -128,4 +129,31 @@
   .scroll-resize1 {
     width: 300px; /* Taille initiale de l'image */
     transition: width 0.3s ease; /* Transition pour un effet plus fluide */
+  }
+
+  #footer1 {
+    background: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  #footer1 .copyright1 {
+    text-align: center;
+  }
+  
+  #footer1 .credits1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    bottom: 0;       /* Positionne le footer en bas de l'écran */
+    left: 0;         /* Aligne le footer à gauche de l'écran */
+    width: 100%;
   }
