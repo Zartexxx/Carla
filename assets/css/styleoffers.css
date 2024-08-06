@@ -130,4 +130,6 @@
     transition: width 0.3s ease; /* Transition pour un effet plus fluide */
   }
 
- 
+ .container-offers {
+  height: 10%;
+ }
