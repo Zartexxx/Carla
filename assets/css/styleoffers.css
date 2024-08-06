@@ -135,7 +135,7 @@
   height: 10%;
   background-color: #666;
   display: flex;
-  align-items: center;
+  justify-content: center;
  }
 
  .copyright-offers{
