@@ -132,10 +132,10 @@
 
 
  .copyright-offers{
-    display: flex;
-    text-align: center;
-    font-size: 13px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
 
  }
 
