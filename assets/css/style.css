@@ -113,8 +113,8 @@ h6 {
 }
 
 #header #logo img {
-  margin-top: 20px;
-  width: 249px;
+  margin-top: 7px;
+  width: 200px;
 }
 
 #header.header-transparent {
@@ -129,6 +129,11 @@ h6 {
 
 .scrolled-offset {
   margin-top: 70px;
+}
+
+.scroll-resize {
+  width: 300px; /* Taille initiale de l'image */
+  transition: width 0.3s ease; /* Transition pour un effet plus fluide */
 }
 
 

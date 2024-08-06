@@ -233,3 +233,8 @@
   new PureCounter();
 
 })()
+document.addEventListener('scroll', function() {
+  const image = document.querySelector('.scroll-resize');
+  const newWidth = Math.max(100, 200 - window.scrollY / 10); // Réduire la taille de 10px
+  image.style.width = newWidth + 'px';
+});
