@@ -1,4 +1,9 @@
 /* Style du conteneur unique */
+
+.body{
+  height: 50%;
+}
+
 .unique-container1 {
     background: linear-gradient(70deg, #333030, #ffffff);
     border-radius: 15px;
