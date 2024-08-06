@@ -130,21 +130,4 @@
     transition: width 0.3s ease; /* Transition pour un effet plus fluide */
   }
 
-  #footer-offers {
-    background: #343b40;
-    padding: 30px 0;
-    color: #fff;
-    font-size: 14px;
-  }
-  
-  #footer-offers .copyright-offers {
-    text-align: center;
-  
-  }
-  
-  #footer-offers .credits {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 13px;
-    color: #ccc;
-  }
+ 
